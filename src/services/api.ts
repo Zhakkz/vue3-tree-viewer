@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_ENDPOINT
+  baseURL: `https://64b4c8450efb99d862694609.mockapi.io`
 })
 
 export default instance
