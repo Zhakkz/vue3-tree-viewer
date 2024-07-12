@@ -1,5 +1,5 @@
-import TableService from './table-service/index'
+import TableService from './tree-service/index'
 
 export const API = {
-  table: TableService
+  tree: TableService
 }
